@@ -1,3 +1,4 @@
+
 /*
  * Skytils - Hypixel Skyblock Quality of Life Mod
  * Copyright (C) 2020-2023 Skytils
