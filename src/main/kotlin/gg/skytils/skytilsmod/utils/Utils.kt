@@ -99,9 +99,7 @@ object Utils {
     var random = Random()
 
     val isBSMod by lazy {
-        if ("noBS" + Calendar.getInstance().get(Calendar.YEAR) in SuperSecretSettings.settings) return@lazy false
-        val cal = Calendar.getInstance()
-        return@lazy cal.get(Calendar.MONTH) == Calendar.APRIL && cal.get(Calendar.DAY_OF_MONTH) == 1
+        return@lazy false
     }
 
     fun getBlocksWithinRangeAtSameY(center: BlockPos, radius: Int, y: Int): Iterable<BlockPos> {
